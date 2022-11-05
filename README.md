@@ -34,3 +34,15 @@
 | A1          | A1            |
 | A1          | A1            |
 | G           | GND           |
+
+#### ETHERNET W5500
+| SPI      | Arduino pin   |
+|-------------|---------------|
+| CS          | 8          |
+| MOSI        | 10         |
+| MISO        | 11         |
+| SCK         | 9          |
+| RESET       | RESET      |
+| VCC         | 3.3V       |
+| GND         | GND        |
+
