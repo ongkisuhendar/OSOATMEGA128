@@ -46,4 +46,12 @@
 | VCC         | 3.3V       | |
 | GND         | GND        | |
 
+#### RS485
+| Master | Arduino pin | Port Pin | Slave |Arduino pin | Port Pin |
+|-------|-----|------|-------|------|------|
+| RX_M  | 20  | PD2  | RX_S  |  0   |  PE0 |
+| TX_M  | 21  | PD3  | TX_S  |  1   |  PE1 |
+| D_M   | 22  | PD4  | D_S   |  2   |  PE2 |
+
+
 ![atmega128](https://camo.githubusercontent.com/3e2ea6736011e96f8fc0f7c04b2810301e112337bd19d2a559b1d8b3dfa26655/68747470733a2f2f692e696d6775722e636f6d2f737765524a73332e6a7067)
