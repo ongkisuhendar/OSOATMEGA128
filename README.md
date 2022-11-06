@@ -2,6 +2,7 @@
 
 ![OSOatmega128](https://user-images.githubusercontent.com/30437129/200106176-7de84532-5296-4eaf-978b-4305c078f68c.jpg)
 
+![atmega128](https://camo.githubusercontent.com/3e2ea6736011e96f8fc0f7c04b2810301e112337bd19d2a559b1d8b3dfa26655/68747470733a2f2f692e696d6775722e636f6d2f737765524a73332e6a7067)
 #### Digital INPUT
 | INPUT       | Arduino pin   | Port Pin |
 |-------------|---------------|----------|
@@ -47,11 +48,13 @@
 | GND         | GND        | |
 
 #### RS485
-| Master | Arduino pin | Port Pin | Slave |Arduino pin | Port Pin |
+| Master UART1/Serial1| Arduino pin | Port Pin | Slave UART0/Serial |Arduino pin | Port Pin |
 |-------|-----|------|-------|------|------|
 | RX_M  | 20  | PD2  | RX_S  |  0   |  PE0 |
 | TX_M  | 21  | PD3  | TX_S  |  1   |  PE1 |
 | D_M   | 22  | PD4  | D_S   |  2   |  PE2 |
 
 
-![atmega128](https://camo.githubusercontent.com/3e2ea6736011e96f8fc0f7c04b2810301e112337bd19d2a559b1d8b3dfa26655/68747470733a2f2f692e696d6775722e636f6d2f737765524a73332e6a7067)
+
+
+
